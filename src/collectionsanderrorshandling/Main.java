@@ -25,9 +25,9 @@ public class Main {
                 sum += number;
             }
 
-            // Throw an IndexOutOfBoundsException
-//            int index = 10;
-//            int element = numbers.get(index);
+ // Throw an IndexOutOfBoundsException
+// int index = 10;
+// int element = numbers.get(index);
 
             // Calculate the average of the integers
             double average = (double) sum / numbers.size();
@@ -37,10 +37,9 @@ public class Main {
             if (average < 0) {
                 throw new IllegalArgumentException("Average is negative.");
             }
-
             // Throw an ArithmeticException
-//            int dividend = 0;
-//            int quotient = sum / dividend;
+// int dividend = 0;
+// int quotient = sum / dividend;
 
             // Print the sum, average, and the list of integers without duplicates
             System.out.println("Sum: " + sum);
